@@ -17,6 +17,8 @@ from PIL import Image, ImageEnhance, ImageFilter
 import os
 import glob
 
+nltk.download('punkt_tab')
+
 # Define constants
 DAYS = ["Day 1", "Day 2", "Day 3"]
 DOMAINS = ["AI_ML", "Blockchain", "Cybersecurity", "IoT", "Web Development"]
